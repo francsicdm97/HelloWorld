@@ -7,9 +7,14 @@ namespace HelloWorld
         // Entry point of our program
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello Francis!");
-            Console.WriteLine("Hello Francis!");
+            string myname = "Francis";
+            string message = "My name is ";
+
+            string capsMessage = message.ToUpper();
+
+            string  lowwerCaseMessage = message.ToLower();
+
+            Console.WriteLine(lowwerCaseMessage + myname);
             Console.Read();
         }
     }
